@@ -191,5 +191,57 @@
     </div>
 </section>
 <!-- /services -->
+
+
+<!-- blog -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="section-title">Blogs</h2>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <article class="card shadow">
+                    <img class="rounded card-img-top" src="{{asset('profile/images/blog/blog-1.png')}}" alt="post-thumb">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a class="text-dark" href="#">
+                                BitBucket (git) to cPanel Deployment
+                            </a>
+                        </h4>
+                            <p class="cars-text">Click here to know, how to deploy code directly from BitBucket to cPanel without hassle quickly.</p>
+                            <!-- <a href="#" class="btn btn-xs btn-primary">Read More</a> -->
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <article class="card shadow">
+                    <img class="rounded card-img-top" src="{{asset('profile/images/blog/blog-2.png')}}" alt="
+                    post-thumb">
+                    <div class="card-body">
+                        <h4 class="card-title"><a class="text-dark" href="#">PHP  Interview Questions for all levels</a>
+                        </h4>
+                        <p class="cars-text">You will get top interview questions to clear the PHP interview from Beginner to Experience level.</p>
+                        <!-- <a href="#" class="btn btn-xs btn-primary">Read More</a> -->
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <article class="card shadow">
+                    <img class="rounded card-img-top" src="{{asset('profile/images/blog/blog-3.png')}}" alt="
+                    post-thumb">
+                    <div class="card-body">
+                        <h4 class="card-title"><a class="text-dark" href="#">Fundamentals of Technologies for Beginners</a>
+                        </h4>
+                        <p class="cars-text">This is the Basic blog about the fundaments of the technologies, On later we will add more contents for freshers.</p>
+                        <!-- <a href="#" class="btn btn-xs btn-primary">Read More</a> -->
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /blog -->
+
 @include('profile.includes.contactUs-form')
 @stop
